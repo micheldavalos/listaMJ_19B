@@ -1,5 +1,15 @@
 #include "seleccion.h"
 #include <iomanip>
+string Seleccion::getNombre() const
+{
+    return nombre;
+}
+
+void Seleccion::setNombre(const string &value)
+{
+    nombre = value;
+}
+
 Seleccion::Seleccion()
 {
 

@@ -6,8 +6,10 @@ CONFIG -= qt
 SOURCES += \
         jugador.cpp \
         main.cpp \
+        menuseleccion.cpp \
         seleccion.cpp
 
 HEADERS += \
     jugador.h \
+    menuseleccion.h \
     seleccion.h

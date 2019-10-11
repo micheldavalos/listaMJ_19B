@@ -7,6 +7,7 @@
 class Seleccion
 {
     list<Jugador> jugadores;
+    string nombre;
 
 public:
     Seleccion();
@@ -22,6 +23,8 @@ public:
     void eliminarNombre(const string &n);
     void eliminarGoles();
     void eliminarGoles(size_t g);
+    string getNombre() const;
+    void setNombre(const string &value);
 };
 
 #endif // SELECCION_H
